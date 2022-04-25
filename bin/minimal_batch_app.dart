@@ -23,7 +23,7 @@ class SayHelloTask extends Task<SayHelloTask> {
   }
 }
 
-class SayWorldTask extends Task<SayHelloTask> {
+class SayWorldTask extends Task<SayWorldTask> {
   @override
   void execute(ExecutionContext context) {
     log.info('World!');
